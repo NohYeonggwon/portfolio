@@ -205,7 +205,7 @@ nav li:hover {
 }
 
 #sec1 .about h3::before {
-    background-image: url(../img/about_me.png);
+    background-image: url(img/about_me.png);
 }
 
 #sec1 .edu h3::before {
