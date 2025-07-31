@@ -305,6 +305,8 @@ nav li:hover {
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 24px;
+    word-break: keep-all;
+    width: 600px;
 }
 
 .intro .tell h5 {
