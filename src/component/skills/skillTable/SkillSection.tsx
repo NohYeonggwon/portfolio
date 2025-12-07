@@ -1,6 +1,6 @@
 import type { JSX } from "react";
 import SkillList from "./SkillList";
-import { skillsData, type SkillCategory } from "../../../data/skills";
+import { skillsData } from "../../../data/skills";
 
 export default function SkillSection({
   icon,
