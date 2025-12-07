@@ -47,7 +47,11 @@ export default function ExperienceCard({ exp }: { exp: Experience }) {
         }}
       >
         <div
-          className={`p-8 bg-linear-to-br ${exp.color} rounded-3xl shadow-xl border-4 border-white relative`}
+          className={`p-8 bg-linear-to-br rounded-3xl shadow-xl border-4 border-white relative ${
+            exp.type === "project"
+              ? "from-[#9db2f7] to-[#cdd9ff]"
+              : "from-[#64ce99] to-[#c1f3d9]"
+          }`}
         >
           <div className="relative z-10 min-w-full">
             {/* 기간 */}
@@ -57,10 +61,7 @@ export default function ExperienceCard({ exp }: { exp: Experience }) {
             </div>
 
             {/* 직무 or 프로젝트명 */}
-            <h3 className="text-2xl mb-2 text-gray-800">
-              {exp.type === "project" && "프로젝트명: "}
-              {exp.title}
-            </h3>
+            <h3 className="text-2xl mb-2 text-gray-800">{exp.title}</h3>
 
             {/* 회사명 or 부가 설명 */}
             <div className="flex items-center gap-2 mb-4">

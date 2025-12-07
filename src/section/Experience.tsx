@@ -15,7 +15,7 @@ export default function Experience() {
         <div className="relative">
           {/* Timeline*/}
           <div className="hidden lg:block absolute left-1/2 top-0 bottom-0 w-1 -translate-x-1/2">
-            <div className="absolute inset-0 bg-linear-to-b from-[#d4b5fd] via-[#b8e6d5] to-[#ffd4d4] rounded-full"></div>
+            <div className="absolute inset-0 bg-black/20 rounded-full shadow-xl"></div>
           </div>
 
           <div className="space-y-12">
@@ -26,7 +26,11 @@ export default function Experience() {
                   {/* Dot */}
                   <div className="hidden lg:block absolute left-1/2 top-6 -translate-x-1/2 z-10">
                     <div
-                      className={`w-14 h-14 rounded-full shadow-md bg-linear-to-r ${exp.color} p-1`}
+                      className={`w-14 h-14 rounded-full shadow-md bg-linear-to-r ${
+                        exp.type === "project"
+                          ? "from-[#9db2f7] to-[#cdd9ff]"
+                          : "from-[#64ce99] to-[#c1f3d9]"
+                      } p-1`}
                     >
                       <div className="w-full h-full rounded-full bg-white"></div>
                     </div>

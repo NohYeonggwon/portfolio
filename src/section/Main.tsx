@@ -40,8 +40,8 @@ export default function Main() {
 
   return (
     <>
-      <section className="w-full min-h-screen bg-[#FBFBF4] pt-50">
-        <div className="flex flex-col items-center gap-20">
+      <section className="relative w-full min-h-screen bg-[#FBFBF4] pt-65">
+        <div className=" flex flex-col items-center gap-20">
           <div>
             <svg
               width="601"
@@ -118,6 +118,13 @@ export default function Main() {
                   <span className="cursor-blink">|</span>
                 )}
             </p>
+          </div>
+
+          <div className="absolute left-1/2 -translate-x-1/2 bottom-10 flex flex-col items-center gap-2">
+            <span>Scroll Down</span>
+            <span className="relative w-8 h-12 border border-[#A09999] rounded-full">
+              <span className="w-1 h-1 absolute left-1/2 top-1/4 -translate-x-1/2 rounded-full bg-[#A09999] animate-[scrollBounce_1.6s_ease-in-out_infinite]"></span>
+            </span>
           </div>
         </div>
       </section>
