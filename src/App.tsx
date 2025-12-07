@@ -1,7 +1,6 @@
 import About from "./section/About";
 import Contact from "./section/Contact";
 import Experience from "./section/Experience";
-import Footer from "./section/Footer";
 import Header from "./section/Header";
 import Main from "./section/Main";
 import Project from "./section/Project";
@@ -18,7 +17,6 @@ export default function App() {
         <Experience />
         <Project />
         <Contact />
-        <Footer />
       </div>
     </>
   );
