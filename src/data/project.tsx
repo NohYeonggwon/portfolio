@@ -10,6 +10,13 @@ import TsIcon from "../component/icons/TsIcon";
 import VercelIcon from "../component/icons/VercelIcon";
 import VscodeIcon from "../component/icons/VscodeIcon";
 import ZustandIcon from "../component/icons/ZustandIcon";
+import JsIcon from "../component/icons/JsIcon";
+import HtmlIcon from "../component/icons/HtmlIcon";
+import CssIcon from "../component/icons/CssIcon";
+import AdobeXDIcon from "../component/icons/AdobeXDIcon";
+import TanstackIcon from "../component/icons/TanstackIcon";
+
+// Web
 import Hanssem from "../img/web/Hanssem.png";
 import HanssemMain from "../img/web/HanssemMain.jpg";
 import Algo from "../img/web/Algo.png";
@@ -18,11 +25,99 @@ import StudyHub from "../img/web/StudyHub.png";
 import StudyHubMain from "../img/web/StudyHubMain.jpg";
 import NotionClone from "../img/web/NotionClone.png";
 import NotionCloneMain from "../img/web/NotionCloneMain.jpg";
-import JsIcon from "../component/icons/JsIcon";
-import HtmlIcon from "../component/icons/HtmlIcon";
-import CssIcon from "../component/icons/CssIcon";
-import AdobeXDIcon from "../component/icons/AdobeXDIcon";
-import TanstackIcon from "../component/icons/TanstackIcon";
+
+// Design
+import motionDeskMain from "../img/design/cont1/main.jpg";
+import motionDesk1 from "../img/design/cont1/1.jpg";
+import motionDesk2 from "../img/design/cont1/2.jpg";
+import motionDesk3 from "../img/design/cont1/3.jpg";
+import motionDesk4 from "../img/design/cont1/4.jpg";
+import motionDesk5 from "../img/design/cont1/5.jpg";
+import motionDesk6 from "../img/design/cont1/6.jpg";
+
+import cabinetMain from "../img/design/cont2/main.jpg";
+import cabinet1 from "../img/design/cont2/1.jpg";
+import cabinet2 from "../img/design/cont2/2.jpg";
+import cabinet3 from "../img/design/cont2/3.jpg";
+import cabinet4 from "../img/design/cont2/4.jpg";
+import cabinet5 from "../img/design/cont2/5.jpg";
+import cabinet6 from "../img/design/cont2/6.jpg";
+import cabinet7 from "../img/design/cont2/7.jpg";
+import cabinet8 from "../img/design/cont2/8.jpg";
+
+import massageMain from "../img/design/cont3/main.jpg";
+import massage1 from "../img/design/cont3/1.jpg";
+import massage2 from "../img/design/cont3/2.jpg";
+import massage3 from "../img/design/cont3/3.jpg";
+import massage4 from "../img/design/cont3/4.jpg";
+
+import woodSelfMain from "../img/design/cont4/main.jpg";
+import woodSelf1 from "../img/design/cont4/1.jpg";
+import woodSelf2 from "../img/design/cont4/2.jpg";
+import woodSelf3 from "../img/design/cont4/3.jpg";
+import woodSelf4 from "../img/design/cont4/4.jpg";
+import woodSelf5 from "../img/design/cont4/5.jpg";
+import woodSelf6 from "../img/design/cont4/6.jpg";
+import woodSelf7 from "../img/design/cont4/7.jpg";
+import woodSelf8 from "../img/design/cont4/8.jpg";
+
+import miniStoolMain from "../img/design/cont5/main.jpg";
+import miniStool1 from "../img/design/cont5/1.jpg";
+import miniStool2 from "../img/design/cont5/2.jpg";
+import miniStool3 from "../img/design/cont5/3.jpg";
+import miniStool4 from "../img/design/cont5/4.jpg";
+import miniStool5 from "../img/design/cont5/5.jpg";
+
+import boucleMain from "../img/design/cont6/main.jpg";
+import boucle1 from "../img/design/cont6/1.jpg";
+import boucle2 from "../img/design/cont6/2.jpg";
+import boucle3 from "../img/design/cont6/3.jpg";
+import boucle4 from "../img/design/cont6/4.jpg";
+import boucle5 from "../img/design/cont6/5.jpg";
+import boucle6 from "../img/design/cont6/6.jpg";
+
+import boatMain from "../img/design/cont7/main.jpg";
+import boat1 from "../img/design/cont7/1.jpg";
+import boat2 from "../img/design/cont7/2.jpg";
+import boat3 from "../img/design/cont7/3.jpg";
+import boat4 from "../img/design/cont7/4.jpg";
+import boat5 from "../img/design/cont7/5.jpg";
+import boat6 from "../img/design/cont7/6.jpg";
+import boat7 from "../img/design/cont7/7.jpg";
+
+import cookieMain from "../img/design/cont8/main.jpg";
+import cookie1 from "../img/design/cont8/1.jpg";
+import cookie2 from "../img/design/cont8/2.jpg";
+import cookie3 from "../img/design/cont8/3.jpg";
+import cookie4 from "../img/design/cont8/4.jpg";
+import cookie5 from "../img/design/cont8/5.jpg";
+import cookie6 from "../img/design/cont8/6.jpg";
+
+import klappMain from "../img/design/cont9/main.jpg";
+import klapp1 from "../img/design/cont9/1.jpg";
+import klapp2 from "../img/design/cont9/2.jpg";
+import klapp3 from "../img/design/cont9/3.jpg";
+import klapp4 from "../img/design/cont9/4.jpg";
+import klapp5 from "../img/design/cont9/5.jpg";
+
+import diningTableMain from "../img/design/cont10/main.jpg";
+import diningTable1 from "../img/design/cont10/1.jpg";
+import diningTable2 from "../img/design/cont10/2.jpg";
+import diningTable3 from "../img/design/cont10/3.jpg";
+import diningTable4 from "../img/design/cont10/4.jpg";
+import diningTable5 from "../img/design/cont10/5.jpg";
+import diningTable6 from "../img/design/cont10/6.jpg";
+import diningTable7 from "../img/design/cont10/7.jpg";
+import diningTable8 from "../img/design/cont10/8.jpg";
+
+import AllInOneMain from "../img/design/cont11/main.jpg";
+import AllInOne1 from "../img/design/cont11/1.jpg";
+import AllInOne2 from "../img/design/cont11/2.jpg";
+import AllInOne3 from "../img/design/cont11/3.jpg";
+import AllInOne4 from "../img/design/cont11/4.jpg";
+import AllInOne5 from "../img/design/cont11/5.jpg";
+import AllInOne6 from "../img/design/cont11/6.jpg";
+import AllInOne7 from "../img/design/cont11/7.jpg";
 
 export const ProjectData: Record<ActiveTabType, Project[]> = {
   Web: [
@@ -276,14 +371,156 @@ export const ProjectData: Record<ActiveTabType, Project[]> = {
   ],
   Design: [
     {
-      id: "제품 이름",
-      logo: StudyHub,
-      title: "제품 이름",
-      period: "2025.10.02 ~ 10.24",
-      shortDescription: "어떤 용도 제품",
-      definition: "제품 상세 페이지",
+      id: "모션데스크",
+      logo: motionDeskMain,
+      title: "모션데스크",
+      period: "10시간 / 2일",
+      definition: "컴포트 모션데스크",
       colors: ["#D9D9D9"],
       techStack: [<PsIcon />, <IllustIcon />],
+      designImg: [
+        motionDesk1,
+        motionDesk2,
+        motionDesk3,
+        motionDesk4,
+        motionDesk5,
+        motionDesk6,
+      ],
+    },
+    {
+      id: "양문형 수납함",
+      logo: cabinetMain,
+      title: "양문형 수납함",
+      period: "6시간 / 1일",
+      definition: "철제 슬라이드 양문형 수납함",
+      colors: ["#D9D9D9"],
+      techStack: [<PsIcon />, <IllustIcon />],
+      designImg: [
+        cabinet1,
+        cabinet2,
+        cabinet3,
+        cabinet4,
+        cabinet5,
+        cabinet6,
+        cabinet7,
+        cabinet8,
+      ],
+    },
+    {
+      id: "마사지 롤러",
+      logo: massageMain,
+      title: "마사지 롤러",
+      period: "5시간 / 1일",
+      definition: "프리미엄 페이스 마사지 롤러",
+      colors: ["#D9D9D9"],
+      techStack: [<PsIcon />, <IllustIcon />],
+      designImg: [massage1, massage2, massage3, massage4],
+    },
+    {
+      id: "우드 선반",
+      logo: woodSelfMain,
+      title: "우드 선반",
+      period: "8시간 / 2일",
+      definition: "화이트 스틸 우드 선반",
+      colors: ["#D9D9D9"],
+      techStack: [<PsIcon />, <IllustIcon />],
+      designImg: [
+        woodSelf1,
+        woodSelf2,
+        woodSelf3,
+        woodSelf4,
+        woodSelf5,
+        woodSelf6,
+        woodSelf7,
+        woodSelf8,
+      ],
+    },
+    {
+      id: "미니 스툴 의자",
+      logo: miniStoolMain,
+      title: "미니 스툴 의자",
+      period: "12시간 / 2일",
+      definition: "인테리어 미니 스툴 의자",
+      colors: ["#D9D9D9"],
+      techStack: [<PsIcon />, <IllustIcon />],
+      designImg: [miniStool1, miniStool2, miniStool3, miniStool4, miniStool5],
+    },
+    {
+      id: "부클레 의자",
+      logo: boucleMain,
+      title: "부클레 의자",
+      period: "6시간 / 2일",
+      definition: "부클레 라운드 체어",
+      colors: ["#D9D9D9"],
+      techStack: [<PsIcon />, <IllustIcon />],
+      designImg: [boucle1, boucle2, boucle3, boucle4, boucle5, boucle6],
+    },
+    {
+      id: "코듀로이 소파침대",
+      logo: boatMain,
+      title: "코듀로이 소파침대",
+      period: "14시간 / 2일",
+      definition: "코듀로이 보트 소파침대",
+      colors: ["#D9D9D9"],
+      techStack: [<PsIcon />, <IllustIcon />],
+      designImg: [boat1, boat2, boat3, boat4, boat5, boat6, boat7],
+    },
+    {
+      id: "쿠키 회전의자",
+      logo: cookieMain,
+      title: "쿠키 회전의자",
+      period: "8시간 / 2일",
+      definition: "쿠키 회전의자",
+      colors: ["#D9D9D9"],
+      techStack: [<PsIcon />, <IllustIcon />],
+      designImg: [cookie1, cookie2, cookie3, cookie4, cookie5, cookie6],
+    },
+    {
+      id: "클라프 소파",
+      logo: klappMain,
+      title: "클라프 소파",
+      period: "10시간 / 2일",
+      definition: "클라프 소파베드",
+      colors: ["#D9D9D9"],
+      techStack: [<PsIcon />, <IllustIcon />],
+      designImg: [klapp1, klapp2, klapp3, klapp4, klapp5],
+    },
+    {
+      id: "다이닝 테이블",
+      logo: diningTableMain,
+      title: "다이닝 테이블",
+      period: "15시간 / 3일",
+      definition: "다이닝 테이블",
+      colors: ["#D9D9D9"],
+      techStack: [<PsIcon />, <IllustIcon />],
+      designImg: [
+        diningTable1,
+        diningTable2,
+        diningTable3,
+        diningTable4,
+        diningTable5,
+        diningTable6,
+        diningTable7,
+        diningTable8,
+      ],
+    },
+    {
+      id: "아이오 데스크",
+      logo: AllInOneMain,
+      title: "아이오 데스크",
+      period: "12시간 / 2일",
+      definition: "클라프 소파베드",
+      colors: ["#D9D9D9"],
+      techStack: [<PsIcon />, <IllustIcon />],
+      designImg: [
+        AllInOne1,
+        AllInOne2,
+        AllInOne3,
+        AllInOne4,
+        AllInOne5,
+        AllInOne6,
+        AllInOne7,
+      ],
     },
   ],
 };

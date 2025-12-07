@@ -6,9 +6,9 @@ interface Project {
   title: string; // 이름
   period: string; // 기간
   mainTech?: JSX.Element; // Web: 메인 프레임워크 / Design: x
-  role?: string;
-  shortDescription: string; // Web: 간단 설명 / Design: 제품 이름
-  definition: string; // Web: 프로젝트 정의(프로젝트 설명) / Design: 제품 설명
+  role?: string; // Web: 역할 / Design: x
+  shortDescription?: string; // Web: 간단 설명 / Design: x
+  definition: string; // Web: 프로젝트 정의(프로젝트 설명) / Design: 제품 이름
   colors?: string[]; // Web: x / Design: 디자인일 경우 컬러
   techStack: JSX.Element[]; // 기술 스택 리스트
   detail?: {
@@ -28,4 +28,5 @@ interface Project {
       fifth: string[];
     };
   };
+  designImg?: string[]; // Design: 이미지
 }

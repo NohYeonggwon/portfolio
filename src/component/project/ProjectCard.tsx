@@ -25,7 +25,11 @@ export default function ProjectCard({
                 <img
                   src={data.logo ?? ""}
                   alt={data.title}
-                  className="w-40 h-40 object-contain"
+                  className={`${
+                    isDesign
+                      ? "w-full h-full object-fill"
+                      : "w-40 h-40 object-contain"
+                  }`}
                 />
                 {/* 어두운 오버레이 */}
                 <div className="absolute inset-0 bg-black/60" />
@@ -42,9 +46,7 @@ export default function ProjectCard({
                   {data.title}
                 </span>
                 <div className="w-16 h-0.5 bg-white/80" />
-                <span className="text-sm md:text-base font-light">
-                  {data.period}
-                </span>
+                <span className="text-lg md:text-base">{data.period}</span>
               </div>
             </div>
           </div>

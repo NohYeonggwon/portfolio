@@ -1,17 +1,11 @@
 export default function DesignHoverCard({ data }: { data: Project }) {
   return (
-    <div className="flex flex-col justify-between h-full gap-6">
-      <div className="space-y-4">
-        <div>
-          <p className="text-lg md:text-xl font-semibold leading-snug">
-            {data.shortDescription}{" "}
-            <span className="text-xs md:text-sm ml-1 text-gray-500">
-              개인 100%
-            </span>
-          </p>
+    <div className="w-full h-full gap-6">
+      <div className="space-y-6">
+        <div className="space-y-2">
+          <p className="text-lg md:text-xl font-semibold">{data.definition}</p>
+          <p>개인 100%</p>
         </div>
-
-        <p className="text-sm text-gray-600 line-clamp-2">짧은 설명 2줄 정도</p>
 
         <div className="space-y-2">
           <p className="text-sm md:text-base font-semibold">RGB 컬러</p>
@@ -26,14 +20,14 @@ export default function DesignHoverCard({ data }: { data: Project }) {
             ))}
           </div>
         </div>
-      </div>
 
-      <div className="flex flex-wrap gap-2">
-        {data.techStack.map((tech) => (
-          <div key={tech} className="w-6 h-6 rounded-full">
-            {tech}
-          </div>
-        ))}
+        <div className="flex flex-wrap gap-2">
+          {data.techStack.map((tech) => (
+            <div key={tech} className="w-6 h-6 rounded-full">
+              {tech}
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

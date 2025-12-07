@@ -11,7 +11,7 @@ export default function WebHoverCard({ data }: { data: Project }) {
           </span>
         </div>
 
-        <p className="text-lg md:text-xl font-semibold leading-snug">
+        <p className="text-lg md:text-xl font-semibold">
           {data.shortDescription}
         </p>
 

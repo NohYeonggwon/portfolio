@@ -11,7 +11,9 @@ export default function SectionTitle({
           <span className="font-medium">{title}</span>
         </div>
 
-        <h3 className="text-[40px] font-medium">{subTitle}</h3>
+        <h3 className="text-[40px] font-medium whitespace-pre-line text-center">
+          {subTitle}
+        </h3>
       </div>
     </>
   );

@@ -40,7 +40,11 @@ export default function Project() {
       </SectionLayout>
       {/* 선택된 프로젝트가 있을 때만 모달 렌더링 */}
       {selectedProject && (
-        <ProjectModal project={selectedProject} onClose={handleCloseModal} />
+        <ProjectModal
+          activeTab={activeTab}
+          project={selectedProject}
+          onClose={handleCloseModal}
+        />
       )}
     </>
   );

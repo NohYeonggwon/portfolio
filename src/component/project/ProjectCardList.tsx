@@ -19,7 +19,7 @@ export default function ProjectCardList({
             <ProjectCard
               isDesign={isDesign}
               data={item}
-              onClick={() => onCardClick(item)} // 여기서 프로젝트 데이터 넘김
+              onClick={() => onCardClick(item)}
             />
           </div>
         ))}
