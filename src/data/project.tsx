@@ -376,7 +376,15 @@ export const ProjectData: Record<ActiveTabType, Project[]> = {
       title: "모션데스크",
       period: "10시간 / 2일",
       definition: "컴포트 모션데스크",
-      colors: ["#D9D9D9"],
+
+      colors: [
+        "#596F5B",
+        "#D2CFCA",
+        "#AD9179",
+        "#FAF9F4",
+        "#000000",
+        "#BC2D31",
+      ],
       techStack: [<PsIcon />, <IllustIcon />],
       designImg: [
         motionDesk1,
@@ -393,7 +401,8 @@ export const ProjectData: Record<ActiveTabType, Project[]> = {
       title: "양문형 수납함",
       period: "6시간 / 1일",
       definition: "철제 슬라이드 양문형 수납함",
-      colors: ["#D9D9D9"],
+
+      colors: ["#E2E2E0", "#F1E7CC", "#CFC9B9", "#000000"],
       techStack: [<PsIcon />, <IllustIcon />],
       designImg: [
         cabinet1,
@@ -412,7 +421,8 @@ export const ProjectData: Record<ActiveTabType, Project[]> = {
       title: "마사지 롤러",
       period: "5시간 / 1일",
       definition: "프리미엄 페이스 마사지 롤러",
-      colors: ["#D9D9D9"],
+
+      colors: ["#F9E0E6", "#CED1C4", "#C52128", "#000000"],
       techStack: [<PsIcon />, <IllustIcon />],
       designImg: [massage1, massage2, massage3, massage4],
     },
@@ -422,7 +432,8 @@ export const ProjectData: Record<ActiveTabType, Project[]> = {
       title: "우드 선반",
       period: "8시간 / 2일",
       definition: "화이트 스틸 우드 선반",
-      colors: ["#D9D9D9"],
+
+      colors: ["#BF9671", "#FFF2CF", "#828282", "#01561F", "#000000"],
       techStack: [<PsIcon />, <IllustIcon />],
       designImg: [
         woodSelf1,
@@ -441,7 +452,7 @@ export const ProjectData: Record<ActiveTabType, Project[]> = {
       title: "미니 스툴 의자",
       period: "12시간 / 2일",
       definition: "인테리어 미니 스툴 의자",
-      colors: ["#D9D9D9"],
+      colors: ["#D0723A", "#EEE0C5", "#683718", "#000000"],
       techStack: [<PsIcon />, <IllustIcon />],
       designImg: [miniStool1, miniStool2, miniStool3, miniStool4, miniStool5],
     },
@@ -451,7 +462,8 @@ export const ProjectData: Record<ActiveTabType, Project[]> = {
       title: "부클레 의자",
       period: "6시간 / 2일",
       definition: "부클레 라운드 체어",
-      colors: ["#D9D9D9"],
+
+      colors: ["#D7C9BD", "#A49812", "#BEAC94", "#8F5F25", "#000000"],
       techStack: [<PsIcon />, <IllustIcon />],
       designImg: [boucle1, boucle2, boucle3, boucle4, boucle5, boucle6],
     },
@@ -461,7 +473,8 @@ export const ProjectData: Record<ActiveTabType, Project[]> = {
       title: "코듀로이 소파침대",
       period: "14시간 / 2일",
       definition: "코듀로이 보트 소파침대",
-      colors: ["#D9D9D9"],
+
+      colors: ["#F78F3F", "#CEC9B6", "#E6564B", "#C8A577", "#000000"],
       techStack: [<PsIcon />, <IllustIcon />],
       designImg: [boat1, boat2, boat3, boat4, boat5, boat6, boat7],
     },
@@ -471,7 +484,8 @@ export const ProjectData: Record<ActiveTabType, Project[]> = {
       title: "쿠키 회전의자",
       period: "8시간 / 2일",
       definition: "쿠키 회전의자",
-      colors: ["#D9D9D9"],
+
+      colors: ["#7E4B33", "#FEF8E8", "#B1AA9F", "#FCD259", "#000000"],
       techStack: [<PsIcon />, <IllustIcon />],
       designImg: [cookie1, cookie2, cookie3, cookie4, cookie5, cookie6],
     },
@@ -481,7 +495,8 @@ export const ProjectData: Record<ActiveTabType, Project[]> = {
       title: "클라프 소파",
       period: "10시간 / 2일",
       definition: "클라프 소파베드",
-      colors: ["#D9D9D9"],
+
+      colors: ["#4E3924", "#DCCFC0", "#3D5497", "#9C753E", "#000000"],
       techStack: [<PsIcon />, <IllustIcon />],
       designImg: [klapp1, klapp2, klapp3, klapp4, klapp5],
     },
@@ -491,7 +506,8 @@ export const ProjectData: Record<ActiveTabType, Project[]> = {
       title: "다이닝 테이블",
       period: "15시간 / 3일",
       definition: "다이닝 테이블",
-      colors: ["#D9D9D9"],
+
+      colors: ["#F8B90C", "#D2D1CE", "#F44A4B", "#000000"],
       techStack: [<PsIcon />, <IllustIcon />],
       designImg: [
         diningTable1,
@@ -510,7 +526,8 @@ export const ProjectData: Record<ActiveTabType, Project[]> = {
       title: "아이오 데스크",
       period: "12시간 / 2일",
       definition: "클라프 소파베드",
-      colors: ["#D9D9D9"],
+
+      colors: ["#6F6E6C", "#837364", "#E48232", "#B6C5C8", "#000000"],
       techStack: [<PsIcon />, <IllustIcon />],
       designImg: [
         AllInOne1,
