@@ -50,7 +50,7 @@ export default function ExperienceCard({ exp }: { exp: Experience }) {
           className={`p-8 bg-linear-to-br rounded-3xl shadow-xl border-4 border-white relative ${
             exp.type === "project"
               ? "from-[#9db2f7] to-[#cdd9ff]"
-              : "from-[#64ce99] to-[#c1f3d9]"
+              : "from-[#d190f0] to-[#e7c1f3]"
           }`}
         >
           <div className="relative z-10 min-w-full">

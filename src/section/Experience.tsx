@@ -29,7 +29,7 @@ export default function Experience() {
                       className={`w-14 h-14 rounded-full shadow-md bg-linear-to-r ${
                         exp.type === "project"
                           ? "from-[#9db2f7] to-[#cdd9ff]"
-                          : "from-[#64ce99] to-[#c1f3d9]"
+                          : "from-[#ac64ce] to-[#e7c1f3]"
                       } p-1`}
                     >
                       <div className="w-full h-full rounded-full bg-white"></div>
