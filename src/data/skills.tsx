@@ -144,12 +144,12 @@ export const skillsDetailData: Record<SkillCategory, SkillDetailData[]> = {
       icon: <ReactIcon />,
       contents: [
         "컴포넌트 단위 설계를 통해 재사용성과 유지보수성을 고려한 UI를 구축할 수 있습니다.",
-        "Props, 상태관리, 이벤트 핸들링을 활용해 동적으로 반응하는 화면을 구현한 경험이 있습니다.",
-        "React Hook을 활용해 직관적이고 확장성 있는 로직 구성을 할 수 있습니다.",
+        "Props, 상태 관리, 이벤트 핸들링을 활용해 동적으로 반응하는 화면을 구현한 경험이 있습니다.",
+        "React Hooks를 활용해 직관적이고 확장성 있는 로직 구성을 할 수 있습니다.",
       ],
     },
     {
-      name: "NextJS",
+      name: "Next.js",
       icon: <NextIcon />,
       contents: [
         "파일 기반 라우팅과 서버 컴포넌트를 활용해 사용자 경험을 고려한 페이지 구조를 설계할 수 있습니다.",
@@ -189,7 +189,7 @@ export const skillsDetailData: Record<SkillCategory, SkillDetailData[]> = {
       ],
     },
     {
-      name: "Tanstack Query",
+      name: "TanStack Query",
       icon: <TanstackIcon />,
       contents: [
         "TanStack Query로 서버 상태를 관리하며, 캐싱·리페치·에러 관리가 자동화된 데이터 흐름을 구성했습니다.",
@@ -198,7 +198,7 @@ export const skillsDetailData: Record<SkillCategory, SkillDetailData[]> = {
   ],
   Design: [
     {
-      name: "PhotoShop",
+      name: "Photoshop",
       icon: <PsIcon />,
       contents: [
         "간단한 이미지 편집, 보정, 그래픽 요소 제작이 가능하며 웹에 필요한 시각 자산을 직접 제작할 수 있습니다.",
@@ -226,8 +226,8 @@ export const skillsDetailData: Record<SkillCategory, SkillDetailData[]> = {
       name: "Adobe XD",
       icon: <AdobeXDIcon />,
       contents: [
-        "컴포넌트 기반 UI 설계를 통해 일관된 디자인 시스템을 구축할 수 있습니다.",
-        "프로토타입 기능을 활용해 사용자 흐름과 인터랙션을 시각적으로 표현할 수 있습니다.",
+        "와이어프레임과 화면 설계를 중심으로 초기 UI 구조를 빠르게 시각화할 수 있습니다.",
+        "디자이너·개발자 간 협업을 위한 화면 흐름 정리와 공유 경험이 있습니다.",
       ],
     },
   ],
@@ -268,8 +268,8 @@ export const skillsDetailData: Record<SkillCategory, SkillDetailData[]> = {
       name: "Supabase",
       icon: <SupabaseIcon />,
       contents: [
-        "Notion으로 일정, 작업 로그, 요구사항 문서를 정리하여 협업에 필요한 정보 구조를 명확하게 구성했습니다.",
-        "템플릿과 데이터베이스 기능을 활용해 반복되는 작업을 효율적으로 관리한 경험이 있습니다.",
+        "Supabase를 활용해 인증(Auth), 데이터베이스(PostgreSQL), 스토리지를 연동한 백엔드 환경을 구성한 경험이 있습니다.",
+        "클라이언트와 직접 연동되는 API를 통해 빠르게 기능을 구현하고 프로토타입을 개발했습니다.",
       ],
     },
     {
