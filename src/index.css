@@ -1,8 +1,5 @@
 @import "tailwindcss";
 
-@import "tailwindcss";
-
-/* Pretendard 각 굵기를 하나의 패밀리로 묶기 */
 @font-face {
   font-family: 'Pretendard';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');
@@ -84,6 +81,12 @@ body {
   transition: all 200ms ease-in-out;
 }
 
+.cursor-blink {
+  display: inline-block;
+  width: 1ch;
+  animation: blink 500ms steps(1) infinite;
+}
+
 @keyframes blink {
 
   0%,
@@ -95,12 +98,6 @@ body {
   100% {
     opacity: 0;
   }
-}
-
-.cursor-blink {
-  display: inline-block;
-  width: 1ch;
-  animation: blink 500ms steps(1) infinite;
 }
 
 @keyframes fadeInUp {
