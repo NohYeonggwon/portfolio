@@ -130,7 +130,7 @@ export const ProjectData: Record<ActiveTabType, Project[]> = {
       title: "Dear___",
       period: "2025.12.03 ~ 2026.01.13",
       mainTech: <NextIcon />,
-      role: "팀원",
+      role: "팀장",
       shortDescription: "Next.js 기반 감성 커뮤니케이션 플랫폼",
       definition:
         "시간과 공간 개념을 디지털 메시지에 접목한 감성 커뮤니케이션 플랫폼입니다.",
