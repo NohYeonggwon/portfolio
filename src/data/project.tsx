@@ -19,6 +19,8 @@ import TanstackIcon from "../component/icons/TanstackIcon";
 // Web
 import Hanssem from "../img/web/Hanssem.png";
 import HanssemMain from "../img/web/HanssemMain.jpg";
+import Dear from "../img/web/Dear.png";
+import DearMain from "../img/web/DearMain.png";
 import Algo from "../img/web/Algo.png";
 import AlgoMain from "../img/web/AlgoMain.jpg";
 import StudyHub from "../img/web/StudyHub.png";
@@ -118,9 +120,93 @@ import AllInOne4 from "../img/design/cont11/4.jpg";
 import AllInOne5 from "../img/design/cont11/5.jpg";
 import AllInOne6 from "../img/design/cont11/6.jpg";
 import AllInOne7 from "../img/design/cont11/7.jpg";
+import SpringIcon from "../component/icons/SpringIcon";
 
 export const ProjectData: Record<ActiveTabType, Project[]> = {
   Web: [
+    {
+      id: "Dear___",
+      logo: Dear,
+      title: "Dear___",
+      period: "2025.12.03 ~ 2026.01.13",
+      mainTech: <NextIcon />,
+      role: "팀원",
+      shortDescription: "Next.js 기반 감성 커뮤니케이션 플랫폼",
+      definition:
+        "시간과 공간 개념을 디지털 메시지에 접목한 감성 커뮤니케이션 플랫폼입니다.",
+      techStack: [
+        <NextIcon />,
+        <ReactIcon />,
+        <TsIcon />,
+        <TailwindIcon />,
+        <TanstackIcon />,
+        <SpringIcon />,
+        <VscodeIcon />,
+        <FigmaIcon />,
+        <GithubIcon />,
+        <VercelIcon />,
+      ],
+      detail: {
+        members: "4(FE), 6(BE) / 총 10",
+        site: {
+          demo: "https://web.dear4u.cloud/",
+          git: "https://github.com/prgrms-web-devcourse-final-project/WEB6_7_FullChamZal_FE",
+          figma:
+            "https://www.figma.com/design/lSAgMmRFCeGc4k9kQrg7tl/Team01_FInal_Project?node-id=178-1664",
+        },
+        siteMainImg: DearMain,
+        contents: {
+          first: [
+            "Dear.___는 메시지를 즉시 전달하는 대신, 특정 시간이나 장소에 도달했을 때만 열리는 'Right-time 경험'을 중심으로 한 감성 메시지 서비스입니다.",
+          ],
+          second: [
+            "프론트엔드 일정 및 역할 조정(업무 분배·우선순위 관리)",
+            "전체 디자인 적용 및 퍼블리싱 진행(UI 구현/스타일링)",
+            "관리자 페이지 핵심 기능 구현(관리 플로우 설계 포함)",
+            "비회원/회원 캡슐 조회 로직 구현(권한별 데이터 접근 분기)",
+            "신고·북마크·저장하기 기능 구현(상태/예외 처리 포함)",
+            "스토리트랙 전체 조회 및 참여 기능 구현(참여 플로우 개발)",
+            "서비스 전반 다크모드 구현(테마 상태 관리 포함)",
+            "UX/UI 개선(스켈레톤 UI, 반응형, 인터랙션 개선)",
+            "QA 진행 및 버그 수정/리팩토링(배포 전 안정화)",
+          ],
+          third: [
+            "Next.js(App Router) 기반으로 회원/비회원/관리자 사용자 유형을 중심으로 라우팅·화면 흐름을 설계하고, 프론트(UX 흐름) + 백엔드(권한 검증) 이중 방어 구조로 접근 제어를 안정화함",
+            "JWT 쿠키 기반 인증 흐름을 전제로, 인증 상태에 따른 화면 진입/데이터 요청 조건을 명확히 분리하고(로그인/비로그인), 인증 만료·권한 부족 등 예외 상황에서도 사용자에게 혼선 없이 안내되는 UI 분기 로직을 구축함",
+            "TanStack Query를 서버 상태 관리의 중심으로 두고, 페이지 기반 무한 스크롤을 적용해 목록 탐색 UX를 개선함. 또한 ‘한 번 진입한 화면은 캐시를 재사용’하도록 구성하고, 로그아웃 시 queryClient.clear()로 전체 캐시를 초기화해 사용자 전환 시 데이터 오염/노출 리스크를 차단함",
+            "에러 처리 공통화 전략을 적용하여 API 실패 케이스를 일관된 형태로 수집/표준화하고, 프론트에서는 상황별(권한/조건 미충족/네트워크 오류 등)로 적절한 메시지·상태 UI를 제공하도록 설계해 안정적인 사용자 경험을 확보함",
+          ],
+          fourth: [
+            [
+              "회원·비회원이 동일한 캡슐 상세 조회 로직을 사용하여, 인증 여부·비밀번호·시간·위치 조건을 하나의 흐름에서 모두 처리하고 있었음.",
+              "비회원 접근 시에도 인증 API가 호출되며 로그인 유도 또는 인증 오류가 노출되는 등 UX 혼선이 발생함.",
+              "비회원 흐름(비밀번호 입력·위치 권한 요청·조건 검증)이 단일 컴포넌트에 혼재되어 로직 복잡도와 유지보수 비용이 증가함.",
+            ],
+            [
+              "접근 경로에 따른 사용자 상태(인증 여부)를 고려하지 않은 채, 상세 컴포넌트 중심으로 로직을 통합 설계함.",
+              "회원/비회원 분기보다 기능 구현 우선 접근으로 인해, 조건 검증 로직이 점진적으로 누적되며 구조가 비대해짐.",
+            ],
+            [
+              "접근 경로를 회원(/dashboard)과 비회원(/capsules/[uuid])으로 명확히 분리하여 라우팅 단계에서 사용자 상태를 구분함.",
+              "비회원 전용 Gate 컴포넌트를 도입해 비밀번호·시간·위치 조건을 단계별로 검증하고, 조건 충족 전까지 상세 데이터 요청을 차단함.",
+              "실패 사유(위치 권한 거부, 시간 만료, 접근 제한 등)에 따라 UI를 명확히 분기하여 사용자 안내를 강화함.",
+              "회원은 인증된 상태를 전제로 상세 모달을 직접 호출하도록 단순화하여 로직 책임을 분리함.",
+            ],
+            [
+              "회원/비회원 UI 흐름이 완전히 분리되어 인증 오류로 인한 UX 혼선이 제거됨.",
+              "조건 검증 로직이 명확히 구조화되며 가독성과 유지보수성이 향상됨.",
+              "사용자 상태에 따른 예측 가능한 접근 흐름을 제공하는 구조로 개선됨.",
+            ],
+          ],
+          fifth: [
+            "MVP 이후 추가 기능에 대한 사전 정의가 충분하지 않으면, 구현 단계에서 수정 비용이 크게 발생한다는 점을 체감함. 다음 프로젝트에서는 기능 명세·우선순위·역할 범위를 보다 명확히 정의한 뒤 개발을 진행하고자 함",
+            "팀원 및 백엔드 팀과의 일정 조율 과정에서, 책임 기반 역할 분담과 커뮤니케이션이 프로젝트 완성도에 직결된다는 점을 경험함. 특히 빠듯한 일정 속에서도 각자 맡은 영역을 끝까지 마무리한 점이 팀의 가장 큰 성과였다고 생각함",
+            "API 구조와 네이밍 규칙이 일관되지 않으면 유지보수 시 혼란이 발생한다는 점을 느꼈으며, 추후에는 API 명세를 선제적으로 문서화하고 계층 구조를 명확히 정리하는 방식으로 개선하고자 함",
+            "타입 정의가 분산되어 관리될 경우 변경 사항 동기화에 어려움이 발생한다는 점을 경험함. 이후에는 공통 타입을 기준으로 응답 스키마를 통합 관리하고, 재사용 가능한 타입 설계를 통해 확장성과 안정성을 높이고자 함",
+          ],
+        },
+      },
+    },
     {
       id: "Algo",
       logo: Algo,
