@@ -49,14 +49,14 @@ export default function ExperienceCard({ exp }: { exp: Experience }) {
         <div
           className={`p-8 bg-linear-to-br rounded-3xl shadow-xl border-4 border-white relative ${
             exp.type === "project"
-              ? "from-[#9db2f7] to-[#cdd9ff]"
-              : "from-[#d190f0] to-[#e7c1f3]"
+              ? "from-[#DBEAFE] to-[#EFF6FF]"
+              : "from-[#F3E8FF] to-[#FAF5FF]"
           }`}
         >
           <div className="relative z-10 min-w-full">
             {/* 기간 */}
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white rounded-full shadow-md mb-4">
-              <Calendar className="w-4 h-4 text-[#4B66BE]" />
+              <Calendar className="w-4 h-4 text-indigo-600" />
               <span className="text-xs text-gray-700">{exp.period}</span>
             </div>
 
@@ -65,7 +65,7 @@ export default function ExperienceCard({ exp }: { exp: Experience }) {
 
             {/* 회사명 or 부가 설명 */}
             <div className="flex items-center gap-2 mb-4">
-              <Briefcase className="w-5 h-5 text-[#4B66BE]" />
+              <Briefcase className="w-5 h-5 text-indigo-600" />
               <span className="text-[#4B66BE]">{exp.position}</span>
             </div>
 
@@ -87,7 +87,7 @@ export default function ExperienceCard({ exp }: { exp: Experience }) {
               {exp.tags.map((tag: string, i: number) => (
                 <span
                   key={i}
-                  className="px-4 py-2 bg-white text-sm text-[#4B66BE] rounded-full shadow-md hover:shadow-lg transition-shadow"
+                  className="px-4 py-2 bg-white text-sm text-gray-700 border border-gray-200 rounded-full shadow-md hover:shadow-lg transition-shadow"
                 >
                   {tag}
                 </span>

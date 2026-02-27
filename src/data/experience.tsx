@@ -19,6 +19,32 @@ export const experiences: Experience[] = [
   },
   {
     type: "project",
+    period: "2025.12.03 ~ 2026.01.13",
+    title: "Dear___",
+    position: "Frontend Developer · UI/UX Designer",
+    summary:
+      "시간과 공간 개념을 디지털 메시지에 접목한 감성 커뮤니케이션 플랫폼",
+    tasks: [
+      "프론트엔드 일정 관리 및 역할 조정(업무 분배·우선순위 수립)",
+      "전체 디자인 적용 및 퍼블리싱 진행(UI 구조 설계·반응형 구현)",
+      "회원/비회원 권한 분기 로직 및 주요 사용자 기능 구현(캡슐 조회, 신고·북마크·저장, 스토리트랙 참여 기능 포함)",
+      "관리자 페이지 핵심 기능 및 관리 플로우 설계·구현",
+      "서비스 품질 개선 및 안정화(다크모드, 스켈레톤 UI, 인터랙션 개선, QA 및 리팩토링)",
+    ],
+    tags: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Spring",
+      "Java",
+      "Vercel",
+      "Git",
+    ],
+    color: "from-[#D4B5FD] to-[#E9D5FF]",
+  },
+  {
+    type: "project",
     period: "2025.10.27 ~ 11.20",
     title: "Algo",
     position: "Frontend Developer · UI/UX Designer",

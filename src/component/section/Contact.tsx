@@ -1,5 +1,5 @@
 import { Mail } from "lucide-react";
-import SectionLayout from "../component/common/SectionLayout";
+import SectionLayout from "../common/SectionLayout";
 
 export default function Contact() {
   return (
@@ -10,10 +10,10 @@ export default function Contact() {
         subTitle={
           "읽어주셔서 감사합니다.\n궁금한 점이 있다면 편하게 연락주세요"
         }
-        bg="#F5F5F0"
+        bg="#F8FAFC"
       >
         <div className="w-80 mx-auto">
-          <div className="grid grid-cols-3 gap-2 text-lg bg-white/80 px-8 py-6 rounded-xl">
+          <div className="grid grid-cols-3 gap-2 text-lg bg-white px-8 py-6 rounded-xl border border-gray-200">
             <p className="font-semibold">이메일</p>
             <p className="col-span-2">skyt852@gmail.com</p>
             <p className="font-semibold">Git</p>

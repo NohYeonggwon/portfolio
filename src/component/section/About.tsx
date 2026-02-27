@@ -1,7 +1,7 @@
 import { Sparkles } from "lucide-react";
-import CoreStrengths from "../component/about/coreStr/CoreStrengths";
-import Me from "../component/about/me/Me";
-import SectionLayout from "../component/common/SectionLayout";
+import CoreStrengths from "../about/coreStr/CoreStrengths";
+import Me from "../about/me/Me";
+import SectionLayout from "../common/SectionLayout";
 
 export default function About() {
   return (
@@ -10,7 +10,7 @@ export default function About() {
         icon={<Sparkles />}
         title="About Me"
         subTitle="저를 소개합니다!"
-        bg="#F5F5F0"
+        bg="#F8FAFC"
       >
         {/* 내 소개 */}
         <Me />

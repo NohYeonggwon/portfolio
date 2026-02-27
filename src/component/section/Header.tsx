@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <>
-      <header className="z-40 fixed w-full h-[70px] top-0 border-b bg-[#FBFBF4]">
+      <header className="z-40 fixed w-full h-[70px] top-0 border-b bg-[#EEF2F7]">
         <div className="h-full px-50 flex justify-between items-center">
           <h1 className="text-2xl font-bold">Noh Yeong Gwon</h1>
           <nav>
