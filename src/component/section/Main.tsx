@@ -40,7 +40,7 @@ export default function Main() {
 
   return (
     <>
-      <section className="relative w-full min-h-screen bg-[#FBFBF4] pt-65">
+      <section className="relative w-full min-h-screen bg-[#EEF2F7] pt-65">
         <div className=" flex flex-col items-center gap-20">
           <div>
             <svg

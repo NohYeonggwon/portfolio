@@ -268,7 +268,7 @@ export const skillsDetailData: Record<SkillCategory, SkillDetailData[]> = {
       name: "Supabase",
       icon: <SupabaseIcon />,
       contents: [
-        "Supabase를 활용해 인증(Auth), 데이터베이스(PostgreSQL), 스토리지를 연동한 백엔드 환경을 구성한 경험이 있습니다.",
+        "Supabase를 활용해 인증, 데이터베이스, 스토리지를 연동한 백엔드 환경을 구성한 경험이 있습니다.",
         "클라이언트와 직접 연동되는 API를 통해 빠르게 기능을 구현하고 프로토타입을 개발했습니다.",
       ],
     },

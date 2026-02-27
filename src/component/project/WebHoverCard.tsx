@@ -1,4 +1,11 @@
+const roleColorMap: Record<string, string> = {
+  팀장: "bg-[#10B981]",
+  팀원: "bg-[#4B66BE]",
+};
+
 export default function WebHoverCard({ data }: { data: Project }) {
+  const roleColor = roleColorMap[data.role!] ?? "bg-gray-500";
+
   return (
     <div className="flex flex-col justify-between h-full gap-6">
       <div className="space-y-4">
@@ -6,7 +13,10 @@ export default function WebHoverCard({ data }: { data: Project }) {
           <span className="inline-flex items-center justify-center w-8 h-8 rounded-full text-xs">
             {data.mainTech}
           </span>
-          <span className="text-sm text-white px-3 py-1 rounded-full bg-[#4B66BE] shadow-lg">
+
+          <span
+            className={`text-sm text-white px-3 py-1 rounded-full shadow-lg ${roleColor}`}
+          >
             {data.role}
           </span>
         </div>

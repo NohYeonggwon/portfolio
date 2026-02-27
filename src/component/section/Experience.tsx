@@ -1,7 +1,7 @@
 import { Briefcase } from "lucide-react";
-import SectionLayout from "../component/common/SectionLayout";
-import { experiences } from "../data/experience";
-import ExperienceCard from "../component/experience/ExperienceCard";
+import SectionLayout from "../common/SectionLayout";
+import { experiences } from "../../data/experience";
+import ExperienceCard from "../experience/ExperienceCard";
 
 export default function Experience() {
   return (
@@ -10,7 +10,7 @@ export default function Experience() {
         icon={<Briefcase />}
         title="Experience"
         subTitle="다양한 업무와 프로젝트를 통해 경험과 노하우를 쌓고 있습니다."
-        bg="#F5F5F0"
+        bg="#F8FAFC"
       >
         <div className="relative">
           {/* Timeline*/}
@@ -28,8 +28,8 @@ export default function Experience() {
                     <div
                       className={`w-14 h-14 rounded-full shadow-md bg-linear-to-r ${
                         exp.type === "project"
-                          ? "from-[#9db2f7] to-[#cdd9ff]"
-                          : "from-[#ac64ce] to-[#e7c1f3]"
+                          ? "from-[#DBEAFE] to-[#EFF6FF]"
+                          : "from-[#F3E8FF] to-[#FAF5FF]"
                       } p-1`}
                     >
                       <div className="w-full h-full rounded-full bg-white"></div>
