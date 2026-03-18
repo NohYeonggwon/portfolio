@@ -148,7 +148,7 @@ export const ProjectData: Record<ActiveTabType, ProjectType[]> = {
       detail: {
         members: "4(FE)",
         site: {
-          demo: "https://fe7-project3-team-4.vercel.app/",
+          demo: "https://algo-prompt.vercel.app/",
           git: "https://github.com/prgrms-fe-devcourse/fe7-project3-team-4",
           figma:
             "https://www.figma.com/design/fGa7xT2uQIWPAp6n9t7ZYi/Team04_-3%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-4DX?node-id=0-1&t=sMYyJyxVY905ltQ7-1",
